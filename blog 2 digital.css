@@ -1,0 +1,217 @@
+body {
+            padding: 0;
+            height: 100vh;
+            margin: 0;
+            /* display: flex;
+            align-items: center;
+            justify-content: center; */
+            /* overflow: hidden; */
+            /* Prevents scrolling */
+
+        }
+
+
+        /* strts of navber section  1   */
+        .nav {
+            height: 100px;
+            width: 1720px;
+            background-color: rgba(130, 134, 101, 0.6);
+            position: fixed;
+            top: 0;
+            z-index: 1;
+
+        }
+
+        .links {
+            align-items: center;
+            text-align: center;
+            font-size: 30px;
+            padding-top: 30px;
+        }
+
+        .links a {
+            padding: 30px;
+            text-decoration: none;
+            color: rgb(46, 27, 4);
+
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        /* ends of navber section  1  */
+
+
+        /* starts of slider bg section 2  */
+        .img-slider {
+            height: 80%;
+            width: 95%;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0px 0px 10px black;
+            margin-top: 120px;
+            margin-left: 40px;
+        }
+
+
+        .img-slider img {
+            height: 80%;
+            width: 95%;
+
+        }
+
+        .slide {
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out
+        }
+
+        .slide.active {
+            opacity: 2;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 2;
+            }
+        }
+
+        /*  end of slider bg section 2 */
+
+
+        /*    starting of section5   */
+        .video-content {
+            display: flex;
+            height: 400px;
+            width: 1200px;
+            /* border: 1px solid black; */
+            margin-left: 300px;
+            margin-top: 50px;
+            gap: 40px;
+
+        }
+
+        .video-content video {
+            height: 400px;
+            width: 500px;
+        }
+
+        .digital-marketing h1 {
+            font-size: 30px;
+            color: rgb(22, 68, 53);
+            margin-top: 50px;
+
+        }
+
+
+        .digital-marketing p {
+            font-size: 20px;
+            color: rgb(13, 37, 29);
+            /* margin-top: 30px; */
+
+        }
+
+        .business-strategy h1 {
+            font-size: 30px;
+            color: rgb(22, 68, 53);
+            margin-top: 50px;
+        }
+
+        .business-strategy p {
+            font-size: 20px;
+            color: rgb(22, 68, 53);
+            /* margin-top: 50px; */
+        }
+
+
+        .roadmap p {
+            font-size: 20px;
+            color: rgb(22, 68, 53);
+            margin-top: 50px;
+        }
+
+        .roadmap h1 {
+            font-size: 30px;
+            color: rgb(22, 68, 53);
+            margin-top: 20px;
+        }
+
+        /*  end of slider bg section 2 */
+
+
+        /*    starting of section5   */
+        .footer {
+            margin-top: 50px;
+            margin-bottom: -20px;
+            /* background-color: #dad0d0; */
+            background-color: rgba(248, 245, 246, 0.8);
+            filter: drop-shadow(0.25rem 0.25rem 0.25rem black);
+            border-radius: 20% 20% 0% 0%;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .authore-info p {
+            font-size: 20px;
+        }
+
+        .usefull-links p {
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+
+        .usefull-links p:hover {
+            text-decoration: underline;
+            color: #149acf;
+
+        }
+
+
+        .icons img {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+
+        }
+
+        .icons {
+            margin-left: 750px;
+        }
+
+        /*    ending of section5   */
+
+
+        /*    starting of section 6  */
+        .footer-lastpart {
+            height: 50px;
+            background-color: #5e5b5b;
+            border-radius: 10 0px 10px 0;
+            color: blanchedalmond;
+
+        }
+
+        .footer-lastpart p {
+            margin-left: 550px;
+            padding-top: 10px;
+            font-size: 20px;
+            font-family: initial;
+        }
+
+        /*    ending of section  6 */

@@ -1,0 +1,183 @@
+ body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* strts of navber section  1   */
+        .nav {
+            height: 100px;
+            width: 1708px;
+            background-color: rgba(130, 134, 101, 0.6);
+        }
+
+        .links {
+            align-items: center;
+            text-align: center;
+            font-size: 30px;
+            padding-top: 30px;
+        }
+
+        .links a {
+            padding: 30px;
+            text-decoration: none;
+            color: rgb(46, 27, 4);
+
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        /* ends of navber section  1  */
+
+
+        /* starts of 2,3,4 part of body  */
+        /*    starting of body section 2   */
+        .picture-content {
+            height: 700px;
+            width: 1600px;
+            /* border: 1px solid black; */
+            margin-top: 5px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            /* padding-top: 30px; */
+            margin-left: 50px;
+            /* background-color: #109bad; */
+
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+.heading h1{
+     font-size: 50px;
+     /* margin-left: 50px; */
+     text-align: center;
+     align-items: center;
+}
+        p {
+            font-size: 20px;
+        }
+
+        .picture {
+            height: 350px;
+            width: 300px;
+            /* border: 1px solid black; */
+            /* margin-top: 20px; */
+        }
+
+        .content {
+            height: 350px;
+            width: 300px;
+            /* border: 1px solid rgb(197, 52, 52); */
+            /* margin-top: 20px; */
+            overflow: scroll;
+            text-align: justify;
+            /* background-color: #d13636; */
+            /* margin-top: 20px; */
+            border-radius:10px ;
+        }
+
+        .part1{
+            display: flex;
+            gap: 10px;
+            margin-bottom: 140px;
+             filter: drop-shadow(0.25rem 0.25rem 0.5rem rgb(65, 63, 63));
+        }
+
+        .part2{
+            display: flex;
+            gap: 10px;
+            margin-top: 380px;
+             filter: drop-shadow(0.25rem 0.25rem 0.5rem rgb(148, 195, 201));
+        }
+
+        .picture-content img {
+            height: 100%;
+            width: 100%;
+            /* background-color: #130505; */
+            /* border: 1px solid black; */
+            border-radius: 20%;
+            filter: drop-shadow(0.25rem 0.25rem 0.5rem rgb(65, 63, 63));
+
+        }
+
+        /*   end of body section 2  */
+        /* ends of 2,3,4 part of body  */
+
+
+
+        /*    starting of  footer section 5   */
+        .footer {
+            margin-top: 50px;
+            margin-bottom: -20px;
+            /* background-color: #dad0d0; */
+            background-color: rgba(248, 245, 246, 0.8);
+            filter: drop-shadow(0.25rem 0.25rem 0.5rem black);
+            border-radius: 20% 20% 0% 0%;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .authore-info p {
+            font-size: 20px;
+        }
+
+
+        .usefull-links {
+            font-size: 20px;
+
+        }
+
+        .usefull-links p {
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+
+        }
+
+        .usefull-links p:hover {
+            text-decoration: underline;
+            color: #149acf;
+
+        }
+
+
+        .icons img {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+
+        }
+
+        .icons {
+            align-items: center;
+            text-align: center;
+        }
+
+        /*    ending of section5   */
+
+
+        /*    starting of section 6  */
+        .footer-lastpart {
+            height: 50px;
+            background-color: #5e5b5b;
+            border-radius: 10 0px 10px 0;
+            color: blanchedalmond;
+
+        }
+
+        .footer-lastpart p {
+            align-items: center;
+            text-align: center;
+            padding-top: 10px;
+            font-size: 20px;
+            font-family: initial;
+        }
+
+        /*    ending of section  6 */

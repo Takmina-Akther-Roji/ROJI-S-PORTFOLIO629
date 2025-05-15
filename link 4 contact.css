@@ -1,0 +1,133 @@
+/*  starting of nav section 1 */
+    .nav {
+        height: 100px;
+        width: 100%;
+        /* border:1px solid rgb(230, 17, 17); */
+        /* background: rgba(199, 174, 179, 0.5); */
+        background: rgba(248, 245, 246, 0.8);
+        z-index: 1;
+        filter: drop-shadow(0.25rem 0.25rem 0.5rem rgb(16, 18, 19));
+        top: 0;
+        position: fixed;
+
+    }
+
+    .logo-link {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* logo */
+    .logo {
+        font-size: 30px;
+        display: flex;
+
+    }
+
+    .img img {
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+
+    .parts {
+        margin-top: 8px;
+        margin-left: 20px;
+    }
+
+    .part1 {
+        font-size: 40px;
+    }
+
+    .part2 {
+        font-size: 60px;
+        color: rgb(17, 17, 100);
+    }
+
+    .part3 {
+        font-size: 40px;
+    }
+
+
+    /* link */
+    .links {
+        padding-top: 30px;
+        margin-right: 20px;
+    }
+
+    .links a {
+        font-size: 30px;
+        padding: 10px;
+        color: rgb(36, 32, 28);
+        text-decoration: none;
+    }
+
+    .links a:hover {
+        color: rgb(28, 8, 128);
+        text-decoration: underline;
+    }
+
+    /* <!-- ending of navber of section 1 --> */
+
+.bodypart{
+    margin-top: 100px;
+}
+
+
+    h1 {
+        font-size: 70px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .heading p {
+
+        font-size: 30px;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .input {
+
+
+        margin-left: 600px;
+
+    }
+
+    .input input {
+        width: 500px;
+        font-size: 30px;
+
+    }
+
+    .button button {
+        margin-left: 650px;
+        height: 50px;
+        width: 400px;
+        background-color: #074910;
+        border-radius: 20px;
+        font-size: 30px;
+        color: blanchedalmond;
+    }
+
+    .footer {
+        height: 350px;
+        width: auto;
+        /* border: 1px solid black; */
+        background-color: #288328;
+        margin-top: 100px;
+    }
+
+    .foooter {
+        height: 260px;
+        width: 1400px;
+        /* border: 1px solid black; */
+        background-color: #abb9b9;
+        /* margin-bottom: 200px; */
+        margin-left: 120px;
+        display: flex;
+        justify-content: space-around;
+    }

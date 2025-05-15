@@ -1,0 +1,43 @@
+* {
+            background-color: #c2bbbb;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h2 {
+            font-size: 50px;
+            color: rgb(20, 65, 65);
+            font-family: monospace;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid rgb(21, 53, 53); /* Cursor effect */
+            width: 20ch; /* Width of text */
+            animation: typing 2s steps(20) 2 alternate-reverse, blink 0.75s step-end infinite;
+        }
+        .text a{
+
+            text-decoration: none;
+        }
+        
+        @keyframes typing {
+            from {
+                width: 0ch;
+            }
+            to {
+                /* width: 20ch; */
+                width: 25ch; 
+                
+            }
+        }
+
+        @keyframes blink {
+            50% {
+                border-color: transparent; /* Effect for cursor blink */
+            }
+        }
